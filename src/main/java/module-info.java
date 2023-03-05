@@ -4,11 +4,7 @@ module QuadTree {
     requires javafx.media;
     requires transitive java.desktop;
 
-    opens quadtree to javafx.controls, javafx.media, javafx.graphics;
-    opens quadtree.logic to javafx.controls, javafx.media, javafx.graphics;
-    opens quadtree.view to javafx.controls, javafx.media, javafx.graphics;
+    opens quadtree to javafx.media, javafx.graphics;
 
     exports quadtree;
-    exports quadtree.view;
-    exports quadtree.logic;
 }
