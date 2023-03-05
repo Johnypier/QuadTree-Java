@@ -1,3 +1,5 @@
+package quadtree.logic;
+
 import javafx.scene.paint.Color;
 
 import java.awt.image.BufferedImage;
@@ -8,7 +10,7 @@ public class QuadTreeUtil {
 
 	public static QuadTreeNode bufferedImageToQuadTree(BufferedImage image) {
 		if (image == null) {
-			throw new IllegalArgumentException("Image cannot be null");
+			throw new IllegalArgumentException("Image cannot be null!");
 		}
 		int maxDimensions = Math.max(image.getHeight(), image.getWidth());
 		int dimensions = 1;

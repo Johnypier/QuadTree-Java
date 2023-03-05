@@ -1,3 +1,5 @@
+package quadtree.logic;
+
 public class QuadTreeNodeImpl implements QuadTreeNode {
 	private static final long serialVersionUID = 1L;
 	private QuadTreeNodeImpl tl;

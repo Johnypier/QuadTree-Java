@@ -1,3 +1,5 @@
+package quadtree.logic;
+
 import java.io.Serializable;
 
 public interface QuadTreeNode extends Serializable {
