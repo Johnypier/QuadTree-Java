@@ -1,6 +1,10 @@
 # QuadTree Java
 To run the application use the following commands in the terminal: <b>./gradlew run</b> or <b>gradle run</b>
 
+![Main View](images/Main%20View.png)
+
+![Simple Paint](images/Simple%20Paint.png)
+
 ## Dependencies
 
 - Open JDK 17
